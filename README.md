@@ -1,7 +1,7 @@
 # Project Overview: Enexis Case Implementation
 ## 1. AWS & Data Ingestion
-### AWS Account configured and used to host example data.
-### Data is stored in an S3 bucket.
+AWS Account configured and used to host example data.
+Data is stored in an S3 bucket.
 ## 2. Snowflake Integration
 The S3 bucket is integrated into Snowflake as an external stage.
 Data is copied from the external stage to an internal stage.
